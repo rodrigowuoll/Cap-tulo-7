@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1d3ab;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px; 
+    background-color: #f1d3ab;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: end;
+}
+
+h1, h2 {
+    color: #58534c;
+}
+
+nav {
+    display: flex;
+    justify-content: end;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+}
+
+a {
+    color: #0eaeab;
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 22px;
+}
+
+a:hover {
+    color: #f95842;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #58534c;
+    text-decoration: none;
+}
+
+a:active {
+    color: #fffb00;
+    text-decoration: underline;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-end; 
+    font-family: "Roboto", sans-serif;
+    font-size: 27px;
+    color: #0eaeab;
+    font-style: italic;
+    text-align: right;
+    gap: 50px;
+    margin: 0 auto; 
+}
+
+.secao-perfil {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 800px;
+}
+
+.secao-perfil .texto {
+    flex: 1;
+}
+
+.secao-perfil .imagem-perfil {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.imagem-perfil img {
+    border-radius: 0 10%;
+    border: 5px solid #dbce79;
+    width: 100%;
+    height: auto;
+}
+
+.imagem-paisagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagem-paisagem img {
+    border-radius: 10% 0;
+    border: 5px solid #dbce79;
+    width: 100%;
+}
+
+.rodape {
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    color: #0eaeab;
+    font-style: italic;
+    justify-content: center; 
+    align-items: center;
+    padding-top: 40px;
+    margin: 0;
+    padding-left: 0;
+}
+
+.bloco-informacao {
+    display: flex;
+    align-items:end;
+    justify-content: end;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 800px; 
+    margin-left: auto; 
+    margin-right: 0; 
+}
+
+.bloco-informacao .texto {
+    flex: 1;
+    padding: 20px;
+}
+
+.bloco-informacao .imagem {
+    flex: 1;
+    padding: 20px;
+}
+
+.bloco-informacao img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
