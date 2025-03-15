@@ -87,10 +87,6 @@ a:active {
     padding: 20px;
 }
 
-.secao-perfil .texto h4 {
-    font-weight: normal; /* Remove o negrito */
-}
-
 .secao-perfil .imagem-perfil {
     flex: 2;
     padding-left: 20px;
@@ -146,10 +142,6 @@ a:active {
     text-align: end;
 }
 
-.bloco-informacao .texto h4 {
-    font-weight: normal; /* Remove o negrito */
-}
-
 .bloco-informacao .imagem {
     flex: 1;
     padding: 20px;
@@ -181,5 +173,10 @@ a:active {
         width: 100%; /* Garante que os itens ocupem 100% da largura em telas menores */
         text-align: center; /* Centraliza o texto em telas menores */
         padding: 10px; /* Ajusta o padding para telas menores */
+    }
+
+    .imagem-paisagem img {
+        width: 100%; /* Garante que a imagem ocupe 100% da largura em telas menores */
+        border-radius: 0; /* Remove o border-radius para ocupar toda a largura */
     }
 }
