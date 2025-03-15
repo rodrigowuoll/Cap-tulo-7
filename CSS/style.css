@@ -82,7 +82,7 @@ a:active {
 }
 
 .secao-perfil .texto {
-    flex: 6;
+    flex: 5;
     text-align: end;
     padding: 20px;
 }
@@ -130,19 +130,24 @@ a:active {
 
 .bloco-informacao {
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: center;
     margin-bottom: 20px;
     width: 100%;
     max-width: 800px; 
     margin-left: auto; 
     margin-right: 0; 
+    flex-wrap: wrap; /* Permite que os itens quebrem linha em telas menores */
 }
 
 .bloco-informacao .texto {
     flex: 1;
     padding: 20px;
     text-align: end;
+}
+
+.bloco-informacao .texto h4 {
+    font-weight: normal; /* Remove o negrito */
 }
 
 .bloco-informacao .imagem {
@@ -155,4 +160,26 @@ a:active {
     width: 100%;
     height: auto;
     border-radius: 10px;
+}
+
+/* Media Query para dispositivos móveis */
+@media (max-width: 768px) {
+    .conteudo {
+        align-items: center; /* Centraliza o conteúdo em telas menores */
+    }
+
+    .bloco-informacao,
+    .secao-perfil {
+        flex-direction: column; /* Altera a direção dos itens para coluna em telas menores */
+        align-items: center; /* Centraliza os itens em telas menores */
+    }
+
+    .bloco-informacao .texto,
+    .bloco-informacao .imagem,
+    .secao-perfil .texto,
+    .secao-perfil .imagem-perfil {
+        width: 100%; /* Garante que os itens ocupem 100% da largura em telas menores */
+        text-align: center; /* Centraliza o texto em telas menores */
+        padding: 10px; /* Ajusta o padding para telas menores */
+    }
 }
