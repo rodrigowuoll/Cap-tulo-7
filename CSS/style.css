@@ -124,7 +124,7 @@ a:active {
 
 .bloco-informacao {
     display: flex;
-    align-items:end;
+    align-items:center;
     justify-content: center;
     margin-bottom: 20px;
     width: 100%;
@@ -136,11 +136,13 @@ a:active {
 .bloco-informacao .texto {
     flex: 1;
     padding: 20px;
+    text-align: center;
 }
 
 .bloco-informacao .imagem {
     flex: 1;
     padding: 20px;
+    text-align: center;
 }
 
 .bloco-informacao img {
