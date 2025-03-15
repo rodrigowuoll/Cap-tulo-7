@@ -1,0 +1,13 @@
+title: Rodrigo Demartini Capelini
+email: rocapelini.rdc@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Este é o site pessoal de Rodrigo Demartini Capelini.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://<seu-usuario>.github.io" # the base hostname & protocol for your site
+github_username: <seu-usuario>
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
