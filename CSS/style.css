@@ -84,7 +84,11 @@ a:active {
 .secao-perfil .texto {
     flex: 6;
     text-align: end;
-    
+    padding: 20px;
+}
+
+.secao-perfil .texto h4 {
+    font-weight: normal; /* Remove o negrito */
 }
 
 .secao-perfil .imagem-perfil {
