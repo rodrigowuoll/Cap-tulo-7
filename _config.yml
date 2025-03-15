@@ -1,0 +1,12 @@
+title: Rodrigo Demartini Capelini
+email: rocapelini.rdc@gmail.com
+description: Este é o site pessoal de Rodrigo Demartini Capelini.
+baseurl: ""
+url: "https://rodrigowuoll.github.io/Cap-tulo-7/" # the base hostname & protocol for your site
+github_username: rodrigowuoll
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
